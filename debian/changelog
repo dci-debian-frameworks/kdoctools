@@ -1,0 +1,7 @@
+kdoctools (4.95.0-0ubuntu10) trusty; urgency=low
+
+  * Initial release
+  * Add Rename-manpages-to-resolve-conflict-with-kde4.diff
+  * Add Rename-CheckXML-to-resolve-conflict.diff
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 12 Jan 2014 11:58:49 +0000

@@ -1,0 +1,39 @@
+Source: kdoctools
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules, qtbase5-dev, libkf5archive-dev, libxslt1-dev,
+ libxml2-dev, docbook-xml, docbook-xsl, libxml2-utils
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kdoctools
+
+Package: kdoctools-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, kdoctools5 (= ${binary:Version}), libkf5archive-dev
+Description: Documentation generation from docbook
+ Tools to read documentation in Docbook.
+ .
+ Contains development files for kdoctools.
+ 
+Package: kdoctools5
+Architecture: any
+Multi-Arch: allowed
+Section: doc
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-utils, 
+ docbook-xml, docbook-xsl
+Description: Documentation generation from docbook
+ Tools to read documentation in Docbook.
+
+Package: kdoctools5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: allowed
+Depends: kdoctools5 (= ${binary:Version}), ${misc:Depends}
+Description: Documentation generation from docbook
+ Tools to read documentation in Docbook.
+ .
+ Contains debug symbols for kdoctools.
