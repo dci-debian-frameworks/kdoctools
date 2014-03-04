@@ -11,14 +11,14 @@ Homepage: https://projects.kde.org/projects/frameworks/kdoctools
 Package: kdoctools-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, kdoctools4 (= ${binary:Version}),
+Depends: ${misc:Depends}, kdoctools5 (= ${binary:Version}),
  libkf5archive-dev (>= 4.97.0)
 Description: Documentation generation from docbook
  Tools to read documentation in Docbook.
  .
  Contains development files for kdoctools.
  
-Package: kdoctools4
+Package: kdoctools5
 Architecture: any
 Multi-Arch: allowed
 Section: doc
@@ -27,12 +27,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2-utils,
 Description: Documentation generation from docbook
  Tools to read documentation in Docbook.
 
-Package: kdoctools4-dbg
+Package: kdoctools5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: kdoctools4 (= ${binary:Version}), ${misc:Depends}
+Depends: kdoctools5 (= ${binary:Version}), ${misc:Depends}
 Description: Documentation generation from docbook
  Tools to read documentation in Docbook.
  .
