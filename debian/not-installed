@@ -1,5 +1,5 @@
 #installed by kdoctools5.manpages
-./usr/share/man/man1/checkXML.1
+./usr/share/man/man1/checkXML5.1
 ./usr/share/man/man7/kf5options.7
-./usr/share/man/man7/qtoptions.7
+./usr/share/man/man7/qt5options.7
 ./usr/share/man/man8/meinproc5.8
