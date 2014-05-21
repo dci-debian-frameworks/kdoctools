@@ -27,7 +27,6 @@ Depends: docbook-xml,
          ${shlibs:Depends}
 Description: Documentation generation from docbook
  Tools to read documentation in Docbook.
-Multi-Arch: allowed
 
 Package: kdoctools5-dbg
 Priority: extra
