@@ -17,6 +17,17 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdoctools
 
+Package: kdoctools-dev
+Section: libdevel
+Architecture: any
+Depends: kdoctools5 (= ${binary:Version}),
+         libkf5archive-dev (>= 4.99.0),
+         ${misc:Depends}
+Description: Documentation generation from docbook
+ Tools to read documentation in Docbook.
+ .
+ Contains development files for kdoctools.
+
 Package: kdoctools5
 Section: doc
 Architecture: any
