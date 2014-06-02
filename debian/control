@@ -22,6 +22,7 @@ Section: libdevel
 Architecture: any
 Depends: kdoctools5 (= ${binary:Version}),
          libkf5archive-dev (>= 4.99.0),
+         qtbase5-dev,
          ${misc:Depends}
 Description: Documentation generation from docbook
  Tools to read documentation in Docbook.
