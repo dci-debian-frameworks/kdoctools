@@ -1,8 +1,9 @@
 Source: kdoctools
 Section: libs
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Jonathan Riddell <jriddell@ubuntu.com>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                docbook-xml,
