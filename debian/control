@@ -17,8 +17,8 @@ Build-Depends: cmake,
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdoctools
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdoctools
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdoctools
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdoctools.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdoctools.git
 
 Package: kdoctools-dev
 Section: libdevel
