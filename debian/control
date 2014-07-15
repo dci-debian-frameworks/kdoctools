@@ -26,10 +26,13 @@ Depends: kdoctools5 (= ${binary:Version}),
          libkf5archive-dev (>= 5.2.0),
          qtbase5-dev,
          ${misc:Depends}
-Description: Documentation generation from docbook
- Tools to read documentation in Docbook.
+Description: Development files for kdoctools5
+ KDocTools is a set of tools to generate documentation in various formats from
+ DocBook files.
  .
- Contains development files for kdoctools.
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the development files for kdoctools5.
 
 Package: kdoctools5
 Section: doc
@@ -39,8 +42,11 @@ Depends: docbook-xml,
          libxml2-utils,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Documentation generation from docbook
- Tools to read documentation in Docbook.
+Description: Tools to generate documentation in various formats from DocBook
+ KDocTools is a set of tools to generate documentation in various formats from
+ DocBook files.
+ .
+ This package is part of KDE Frameworks 5.
 
 Package: kdoctools5-dbg
 Priority: extra
@@ -48,7 +54,10 @@ Section: debug
 Architecture: any
 Multi-Arch: allowed
 Depends: kdoctools5 (= ${binary:Version}), ${misc:Depends}
-Description: Documentation generation from docbook
- Tools to read documentation in Docbook.
+Description: Debug symbols for kdoctools5
+ KDocTools is a set of tools to generate documentation in various formats from
+ DocBook files.
  .
- Contains debug symbols for kdoctools.
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the debug symbols for kdoctools5.
