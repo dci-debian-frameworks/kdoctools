@@ -1,3 +1,17 @@
+kdoctools (5.2.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Use pkg-kde-tools version 3 scripts
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:39:27 +0200
+
+kdoctools (5.1.0-0ubuntu1) utopic; urgency=medium
+
+  * Cleanup copyright file.
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:10:45 +0200
+
 kdoctools (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
