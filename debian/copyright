@@ -33,7 +33,7 @@ License: MIT
 
 Files: src/docbookl10nhelper.cpp
 Copyright: 2010 Luigi Toscano <luigi.toscano@tiscali.it>
-License: LGPL-2.1+ accepted by the membership of KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
