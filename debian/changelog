@@ -1,8 +1,12 @@
-kdoctools (5.3.0-0ubuntu2) UNRELEASED; urgency=medium
+kdoctools (5.4.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Rohan Garg ]
   * New upstream build-dep on ki18n, NOT kdesu
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 07 Oct 2014 17:07:57 +0200
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Nov 2014 18:31:52 +0100
 
 kdoctools (5.3.0-0ubuntu1) utopic; urgency=medium
 
