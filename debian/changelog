@@ -1,4 +1,4 @@
-kdoctools (5.6.0-1~) UNRELEASED; urgency=medium
+kdoctools (5.6.0-1) experimental; urgency=medium
 
   [ Jonathan Riddell ]
   * Remove obsolete patch missing-all-l10n.xml.diff fixed upstream
@@ -12,7 +12,7 @@ kdoctools (5.6.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies to follow cmake.
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 10:22:56 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 14:10:34 +0100
 
 kdoctools (5.2.0-0ubuntu1) utopic; urgency=medium
 
