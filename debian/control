@@ -3,17 +3,18 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               docbook-xml,
+               docbook-xml (>= 4.5),
                docbook-xsl,
                extra-cmake-modules (>= 1.6.0),
                libkf5archive-dev (>= 5.6.0),
+               libkf5i18n-dev (>= 5.6.0),
                libxml2-dev,
                libxml2-utils,
                libxslt1-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev
+               qtbase5-dev (>= 5.2.0)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kdoctools
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdoctools.git
@@ -23,8 +24,8 @@ Package: kdoctools-dev
 Section: libdevel
 Architecture: any
 Depends: kdoctools5 (= ${binary:Version}),
-         libkf5archive-dev (>= 5.2.0),
-         qtbase5-dev,
+         libkf5archive-dev (>= 5.6.0),
+         qtbase5-dev (>= 5.2.0),
          ${misc:Depends}
 Description: Development files for kdoctools5
  KDocTools is a set of tools to generate documentation in various formats from
@@ -37,7 +38,7 @@ Description: Development files for kdoctools5
 Package: kdoctools5
 Section: doc
 Architecture: any
-Depends: docbook-xml,
+Depends: docbook-xml (>= 4.5),
          docbook-xsl,
          libxml2-utils,
          ${misc:Depends},
