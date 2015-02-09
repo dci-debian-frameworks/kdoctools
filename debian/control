@@ -8,8 +8,8 @@ Build-Depends: cmake,
                docbook-xml,
                docbook-xsl,
                extra-cmake-modules (>= 1.6.0),
-               libkf5archive-dev (>= 5.6.0),
-               libkf5i18n-dev (>= 5.6.0),
+               libkf5archive-dev (>= 5.7.0),
+               libkf5i18n-dev (>= 5.7.0),
                libxml2-dev,
                libxml2-utils,
                libxslt1-dev,
@@ -24,7 +24,7 @@ Package: kdoctools-dev
 Section: libdevel
 Architecture: any
 Depends: kdoctools5 (= ${binary:Version}),
-         libkf5archive-dev (>= 5.6.0),
+         libkf5archive-dev (>= 5.7.0),
          qtbase5-dev,
          ${misc:Depends}
 Description: Documentation generation from docbook
