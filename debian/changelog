@@ -4,6 +4,12 @@ kdoctools (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:35:42 +0100
 
+kdoctools (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:49:20 +0100
+
 kdoctools (5.6.0-1) experimental; urgency=medium
 
   [ Jonathan Riddell ]
@@ -19,6 +25,35 @@ kdoctools (5.6.0-1) experimental; urgency=medium
   * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 14:10:34 +0100
+
+kdoctools (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 20:10:27 +0100
+
+kdoctools (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:10:45 +0100
+
+kdoctools (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  [ Rohan Garg ]
+  * New upstream build-dep on ki18n, NOT kdesu
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:12:12 +0100
+
+kdoctools (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  * Remove obsolete patch missing-all-l10n.xml.diff fixed upstream
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:21:28 +0100
 
 kdoctools (5.2.0-0ubuntu1) utopic; urgency=medium
 
