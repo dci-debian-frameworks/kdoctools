@@ -3,6 +3,10 @@
 ./usr/share/man/man7/kf5options.7
 ./usr/share/man/man7/qt5options.7
 ./usr/share/man/man8/meinproc5.8
+./usr/share/man/ca/man1/checkXML5.1
+./usr/share/man/ca/man7/kf5options.7
+./usr/share/man/ca/man7/qt5options.7
+./usr/share/man/ca/man8/meinproc5.8
 ./usr/share/man/de/man1/checkXML5.1
 ./usr/share/man/de/man7/kf5options.7
 ./usr/share/man/de/man7/qt5options.7
