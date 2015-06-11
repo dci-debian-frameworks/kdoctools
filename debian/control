@@ -39,6 +39,7 @@ Description: Development files for kdoctools5
 Package: kdoctools5
 Section: doc
 Architecture: any
+Multi-Arch: foreign
 Depends: docbook-xml (>= 4.5),
          docbook-xsl,
          libxml2-utils,
