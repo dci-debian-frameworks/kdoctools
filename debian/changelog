@@ -1,9 +1,9 @@
-kdoctools (5.11.0-1~) UNRELEASED; urgency=medium
+kdoctools (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.10.0).
   * New upstream release (5.11.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Jun 2015 10:24:06 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Jun 2015 11:43:24 +0200
 
 kdoctools (5.10.0-0ubuntu1) wily; urgency=medium
 
