@@ -1,8 +1,8 @@
-kdoctools (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
+kdoctools (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Mon, 14 Sep 2015 19:51:39 +0100
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:15:26 +0100
 
 kdoctools (5.13.0-0ubuntu1) wily; urgency=medium
 
