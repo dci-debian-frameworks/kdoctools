@@ -50,17 +50,3 @@ Description: Tools to generate documentation in various formats from DocBook
  DocBook files.
  .
  This package is part of KDE Frameworks 5.
-
-Package: kdoctools5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: allowed
-Depends: kdoctools5 (= ${binary:Version}), ${misc:Depends}
-Description: Debug symbols for kdoctools5
- KDocTools is a set of tools to generate documentation in various formats from
- DocBook files.
- .
- This package is part of KDE Frameworks 5.
- .
- This package contains the debug symbols for kdoctools5.
