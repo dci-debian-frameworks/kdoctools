@@ -1,3 +1,20 @@
+kdoctools (5.20.0-1~1.gbpa49d19) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a49d193030719b035bef1a08cceb1577f6033d91 **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 29 Mar 2016 19:51:48 +0200
+
 kdoctools (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
