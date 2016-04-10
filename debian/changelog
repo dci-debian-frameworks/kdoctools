@@ -1,6 +1,6 @@
-kdoctools (5.20.0-1~3.gbp1c9fba) UNRELEASED; urgency=medium
+kdoctools (5.21.0-1~1.gbp2732f8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @1c9fbafccd546ef84335fce379446390cb490ed6 **
+  ** SNAPSHOT build @2732f8ced8d497b26a2d18311f6d0ae62925de02 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,14 @@ kdoctools (5.20.0-1~3.gbp1c9fba) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * UNRELEASED
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:34:26 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:34:22 +0200
 
 kdoctools (5.19.0-1) experimental; urgency=medium
 
