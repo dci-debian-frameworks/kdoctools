@@ -1,3 +1,9 @@
+kdoctools (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release, xenial backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 17:11:04 -0700
+
 kdoctools (5.18.0-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
