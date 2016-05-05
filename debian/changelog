@@ -1,6 +1,6 @@
-kdoctools (5.21.0-1~1.gbp2732f8) UNRELEASED; urgency=medium
+kdoctools (5.21.0-1~2.gbp273f7f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2732f8ced8d497b26a2d18311f6d0ae62925de02 **
+  ** SNAPSHOT build @273f7f284160c211300bdd82e8703547d8f09e25 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -10,6 +10,7 @@ kdoctools (5.21.0-1~1.gbp2732f8) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * UNRELEASED
@@ -21,7 +22,7 @@ kdoctools (5.21.0-1~1.gbp2732f8) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:34:22 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 05 May 2016 22:32:17 +0200
 
 kdoctools (5.19.0-1) experimental; urgency=medium
 
