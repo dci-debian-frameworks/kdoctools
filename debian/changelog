@@ -1,10 +1,9 @@
-kdoctools (5.22.0-1~1.gbpf4d32e) UNRELEASED; urgency=medium
+kdoctools (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f4d32e06b834d450a7a59012e320bc98d4563eb4 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 13:34:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 16:14:32 +0200
 
 kdoctools (5.21.0-1) experimental; urgency=medium
 
