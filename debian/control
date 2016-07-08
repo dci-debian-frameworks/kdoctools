@@ -22,12 +22,22 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 
 Package: kdoctools-dev
+Depends: libkf5doctools-dev, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: libkf5doctools-dev
 Section: libdevel
 Architecture: any
 Depends: kdoctools5 (= ${binary:Version}),
          libkf5archive-dev (>= 5.23.0~),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends}
+Breaks: kdoctools-dev (<< 5.23.0-2~)
+Replaces: kdoctools-dev (<< 5.23.0-2~)
 Description: Development files for kdoctools5
  KDocTools is a set of tools to generate documentation in various formats from
  DocBook files.
