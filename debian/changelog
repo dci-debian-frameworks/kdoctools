@@ -1,6 +1,6 @@
-kdoctools (5.24.0-1~1.gbpbbd9fd) UNRELEASED; urgency=medium
+kdoctools (5.25.0-1~1.gbpdf95bd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @bbd9fd515310d80edafb2ed2ff485ab591372a70 **
+  ** SNAPSHOT build @df95bd70ceddfcf2cc32791b164283818221d4d6 **
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
@@ -9,8 +9,9 @@ kdoctools (5.24.0-1~1.gbpbbd9fd) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 13:34:11 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 13:34:11 +0200
 
 kdoctools (5.23.0-1) unstable; urgency=medium
 
