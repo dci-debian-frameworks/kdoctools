@@ -7,15 +7,15 @@ Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                docbook-xml (>= 4.5),
                docbook-xsl,
-               extra-cmake-modules (>= 5.24.0~),
-               libkf5archive-dev (>= 5.24.0~),
-               libkf5i18n-dev (>= 5.24.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5archive-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
                liburi-perl,
                libxml2-dev,
                libxml2-utils,
                libxslt1-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kdoctools
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
@@ -33,8 +33,8 @@ Package: libkf5doctools-dev
 Section: libdevel
 Architecture: any
 Depends: kdoctools5 (= ${binary:Version}),
-         libkf5archive-dev (>= 5.24.0~),
-         qtbase5-dev (>= 5.4.0~),
+         libkf5archive-dev (>= 5.25.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Breaks: kdoctools-dev (<< 5.23.0-2~)
 Replaces: kdoctools-dev (<< 5.23.0-2~)
