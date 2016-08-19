@@ -1,6 +1,4 @@
-kdoctools (5.25.0-1~2.gbpe2d585) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @e2d58598ffade95e291d4789a5b562ef46dd9b26 **
+kdoctools (5.25.0-1) unstable; urgency=medium
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
@@ -9,12 +7,11 @@ kdoctools (5.25.0-1~2.gbpe2d585) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:34:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 19 Aug 2016 09:09:44 +0200
 
 kdoctools (5.23.0-1) unstable; urgency=medium
 
