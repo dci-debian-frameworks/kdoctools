@@ -7,9 +7,9 @@ Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                docbook-xml (>= 4.5),
                docbook-xsl,
-               extra-cmake-modules (>= 5.25.0~),
-               libkf5archive-dev (>= 5.25.0~),
-               libkf5i18n-dev (>= 5.25.0~),
+               extra-cmake-modules (>= 5.26.0~),
+               libkf5archive-dev (>= 5.26.0~),
+               libkf5i18n-dev (>= 5.26.0~),
                liburi-perl,
                libxml2-dev,
                libxml2-utils,
@@ -34,7 +34,7 @@ Package: libkf5doctools-dev
 Section: libdevel
 Architecture: any
 Depends: kdoctools5 (= ${binary:Version}),
-         libkf5archive-dev (>= 5.25.0~),
+         libkf5archive-dev (>= 5.26.0~),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Breaks: kdoctools-dev (<< 5.23.0-2~)
