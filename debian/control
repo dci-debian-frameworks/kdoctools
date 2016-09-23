@@ -7,27 +7,38 @@ Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                docbook-xml (>= 4.5),
                docbook-xsl,
-               extra-cmake-modules (>= 5.19.0~),
-               libkf5archive-dev (>= 5.19.0~),
-               libkf5i18n-dev (>= 5.19.0~),
+               extra-cmake-modules (>= 5.25.0~),
+               libkf5archive-dev (>= 5.25.0~),
+               libkf5i18n-dev (>= 5.25.0~),
                liburi-perl,
                libxml2-dev,
                libxml2-utils,
                libxslt1-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.6
+               qtbase5-dev (>= 5.5.0~)
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kdoctools
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 
 Package: kdoctools-dev
+Depends: libkf5doctools-dev, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+Breaks: libkf5kdelibs4support-dev (<< 5.25)
+
+Package: libkf5doctools-dev
 Section: libdevel
 Architecture: any
 Depends: kdoctools5 (= ${binary:Version}),
-         libkf5archive-dev (>= 5.19.0~),
-         qtbase5-dev (>= 5.4),
+         libkf5archive-dev (>= 5.25.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
+Breaks: kdoctools-dev (<< 5.23.0-2~)
+Replaces: kdoctools-dev (<< 5.23.0-2~)
 Description: Development files for kdoctools5
  KDocTools is a set of tools to generate documentation in various formats from
  DocBook files.
