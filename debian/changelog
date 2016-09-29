@@ -1,10 +1,12 @@
-kdoctools (5.26.0-1~1.gbp55a544) UNRELEASED; urgency=medium
+kdoctools (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @55a5441d6139240079f080309bae2eb95e54ebd8 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:34:34 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:59:01 +0200
 
 kdoctools (5.25.0-1) unstable; urgency=medium
 
