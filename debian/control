@@ -37,8 +37,8 @@ Depends: kdoctools5 (= ${binary:Version}),
          libkf5archive-dev (>= 5.25.0~),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
-Breaks: kdoctools-dev (<< 5.23.0-2~)
-Replaces: kdoctools-dev (<< 5.23.0-2~)
+Breaks: kdoctools-dev (<< 5.27.0)
+Replaces: kdoctools-dev (<< 5.27.0)
 Description: Development files for kdoctools5
  KDocTools is a set of tools to generate documentation in various formats from
  DocBook files.
