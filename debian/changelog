@@ -1,3 +1,11 @@
+kdoctools (5.27.0-2~1.gbp2924fb) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2924fb8ff5ab4b1ade9b89149bb8e6600c9818ed **
+
+  * Switch kdoctools-dev to Architecture: any. (Closes: 842545)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 31 Oct 2016 09:34:17 +0100
+
 kdoctools (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
