@@ -23,7 +23,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 
 Package: kdoctools-dev
 Depends: libkf5doctools-dev, ${misc:Depends}
-Architecture: all
+Architecture: any
+Multi-Arch: same
 Priority: extra
 Section: oldlibs
 Description: transitional dummy package
@@ -33,6 +34,7 @@ Breaks: libkf5kdelibs4support-dev (<< 5.27)
 Package: libkf5doctools-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: kdoctools5 (= ${binary:Version}),
          libkf5archive-dev (>= 5.27.0~),
          qtbase5-dev (>= 5.5.0~),
