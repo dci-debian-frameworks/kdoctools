@@ -1,11 +1,12 @@
-kdoctools (5.28.0-1~1.gbp34bbdf) UNRELEASED; urgency=medium
+kdoctools (5.28.0-1~2.gbp8e1c3d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @34bbdf447f78f6a2b7dc484076f825aac61716f7 **
+  ** SNAPSHOT build @8e1c3d0db1d19c486f4d0082816cc99f851e4e16 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @2924fb8ff5ab4b1ade9b89149bb8e6600c9818ed **
 
   * Switch kdoctools-dev to Architecture: any. (Closes: 842545)
+  * Update the not-installed file
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
