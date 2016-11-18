@@ -1,17 +1,15 @@
-kdoctools (5.28.0-1~2.gbp8e1c3d) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @8e1c3d0db1d19c486f4d0082816cc99f851e4e16 **
+kdoctools (5.28.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @2924fb8ff5ab4b1ade9b89149bb8e6600c9818ed **
-
+  * New upstream release (5.28)
   * Switch kdoctools-dev to Architecture: any. (Closes: 842545)
   * Update the not-installed file
+  * Bump group breaks (5.28)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 19:34:26 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:03:44 +0100
 
 kdoctools (5.27.0-1) unstable; urgency=medium
 
