@@ -1,3 +1,3 @@
-#installed by kdoctools5.install
+# manpages are gzipped and generate false positives in the check
 ./usr/share/man/man*/*
 ./usr/share/man/*/man*/*
