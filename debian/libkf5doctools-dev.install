@@ -1,3 +1,4 @@
 usr/include/KF5/KDocTools/docbookxslt.h
 usr/include/KF5/KDocTools/kdoctools_export.h
 usr/lib/*/cmake/KF5DocTools/
+usr/lib/*/libKF5DocTools.so
