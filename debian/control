@@ -31,8 +31,6 @@ Description: Tools to generate documentation in various formats from DocBook
  .
  This package is part of KDE Frameworks 5.
 
-Breaks: libkf5newstuff5 (<< 5.28), libkf5xmlgui5 (<< 5.28)
-
 Package: kdoctools-dev
 Depends: libkf5doctools-dev, ${misc:Depends}
 Architecture: any
