@@ -21,6 +21,18 @@ Homepage: https://projects.kde.org/projects/frameworks/kdoctools
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 
+Package: libkf5kdoctools5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Tools to generate documentation in various formats from DocBook
+ KDocTools is a set of tools to generate documentation in various
+ formats from DocBook files.
+ .
+ This package is part of KDE Frameworks 5.
+
+Breaks: libkf5newstuff5 (<< 5.28), libkf5xmlgui5 (<< 5.28)
+
 Package: kdoctools-dev
 Depends: libkf5doctools-dev, ${misc:Depends}
 Architecture: any
@@ -37,6 +49,7 @@ Architecture: any
 Multi-Arch: same
 Depends: kdoctools5 (= ${binary:Version}),
          libkf5archive-dev (>= 5.28.0~),
+         libkf5kdoctools5 (= ${binary:Version}),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Breaks: kdoctools-dev (<< 5.27.0)
