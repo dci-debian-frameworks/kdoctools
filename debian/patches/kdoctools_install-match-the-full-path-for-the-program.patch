@@ -1,0 +1,40 @@
+From: Luigi Toscano <luigi.toscano@tiscali.it>
+Date: Mon, 2 Jan 2017 00:12:40 +0100
+Subject: kdoctools_install: match the full path for the program
+
+Summary:
+In order to get the name of the program, match against the full path
+which includes the path of the directory currently scanned for a
+certain language.
+So if docs/ appears somewhere in the path, it does not interfere
+with the matching regular expression and the name of the program
+is correctly extracted.
+
+BUG: 374435
+
+Test Plan: kdoctools_install(l10n-docs) now works
+
+Reviewers: #frameworks, #documentation, aacid
+
+Reviewed By: #documentation, aacid
+
+Tags: #frameworks, #documentation
+
+Differential Revision: https://phabricator.kde.org/D3912
+---
+ KF5DocToolsMacros.cmake | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/KF5DocToolsMacros.cmake b/KF5DocToolsMacros.cmake
+index d73201d..d294f98 100644
+--- a/KF5DocToolsMacros.cmake
++++ b/KF5DocToolsMacros.cmake
+@@ -243,7 +243,7 @@ function(kdoctools_install podir)
+                     INSTALL_DESTINATION ${MAN_INSTALL_DIR}/${lang}
+                 )
+             else()
+-                string(REGEX MATCH "docs/(.*)/index.docbook" match ${docbook})
++                string(REGEX MATCH "${lang_dir}/docs/(.*)/index.docbook" match ${docbook})
+                 if (match)
+                     kdoctools_create_handbook(${docbook}
+                         INSTALL_DESTINATION ${HTML_INSTALL_DIR}/${lang}
