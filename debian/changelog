@@ -1,8 +1,24 @@
-kdoctools (5.35.0-1~) UNRELEASED; urgency=medium
+kdoctools (5.35.0-1~1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.35.0).
+  * Bump Standards-Version to 4.0.0.
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.35)
+  * Drop upstream patches
+  * Update install files
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:46:19 +0200
+  [ Jonathan Riddell ]
+  * add libkf5kdoctools5
+  * typo
+  * update .install
+  * remove broken bits
+
+  [ Raymond Wooninck ]
+  * Add signing key
+  * also include signing-key
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jul 2017 16:34:48 +0200
 
 kdoctools (5.28.0-2) unstable; urgency=medium
 
