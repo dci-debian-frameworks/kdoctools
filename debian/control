@@ -47,8 +47,8 @@ Architecture: any
 Multi-Arch: same
 Depends: kdoctools5 (= ${binary:Version}),
          libkf5archive-dev (>= 5.35.0~),
-         qtbase5-dev (>= 5.6.0~),
          libkf5doctools5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.6.0~),
          ${misc:Depends}
 Breaks: kdoctools-dev (<< 5.23.0-2~)
 Replaces: kdoctools-dev (<< 5.23.0-2~)
