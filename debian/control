@@ -30,7 +30,7 @@ Description: Tools to generate documentation in various formats from DocBook
  formats from DocBook files.
  .
  This package is part of KDE Frameworks 5.
-Breaks: kio (<< 5.36)
+Breaks: kio (<< 5.37)
 
 Package: kdoctools-dev
 Depends: libkf5doctools-dev, ${misc:Depends}
@@ -40,7 +40,7 @@ Priority: extra
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5kdelibs4support-dev (<< 5.36)
+Breaks: libkf5kdelibs4support-dev (<< 5.37)
 
 Package: libkf5doctools-dev
 Section: libdevel
