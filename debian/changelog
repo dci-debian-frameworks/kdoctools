@@ -1,9 +1,10 @@
-kdoctools (5.36.0-2~) UNRELEASED; urgency=medium
+kdoctools (5.37.0-1~) UNRELEASED; urgency=medium
 
   * New revision
   * Add migrated patch: add-search-paths-for-kdelibs4-docs.patch
+  * New upstream release (5.37.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jul 2017 23:48:09 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Aug 2017 13:16:30 +0200
 
 kdoctools (5.36.0-1) experimental; urgency=medium
 
