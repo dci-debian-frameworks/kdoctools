@@ -25,7 +25,7 @@ Package: kdoctools-dev
 Depends: libkf5doctools-dev, ${misc:Depends}
 Architecture: any
 Multi-Arch: same
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
