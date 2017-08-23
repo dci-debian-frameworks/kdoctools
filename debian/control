@@ -16,7 +16,7 @@ Build-Depends: cmake (>= 3.0~),
                libxslt1-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
-Standards-Version: 4.0.1
+Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/frameworks/kdoctools
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdoctools.git
