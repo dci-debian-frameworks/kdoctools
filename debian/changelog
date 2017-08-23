@@ -1,3 +1,9 @@
+kdoctools (5.37.0-2~) UNRELEASED; urgency=medium
+
+  * New revision
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Aug 2017 21:59:51 +0200
+
 kdoctools (5.37.0-1) experimental; urgency=medium
 
   * New revision
