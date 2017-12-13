@@ -1,8 +1,10 @@
-kdoctools (5.38.0-1~) UNRELEASED; urgency=medium
+kdoctools (5.41.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.38.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.41.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 16:47:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Dec 2017 11:09:12 -0300
 
 kdoctools (5.37.0-2) sid; urgency=medium
 
