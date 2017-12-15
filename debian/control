@@ -29,7 +29,7 @@ Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5kdelibs4support-dev (<< 5.37)
+Breaks: libkf5kdelibs4support-dev (<< 5.41)
 
 Package: kdoctools5
 Section: doc
@@ -74,4 +74,4 @@ Description: Tools to generate documentation in various formats from DocBook
  formats from DocBook files.
  .
  This package is part of KDE Frameworks 5.
-Breaks: kio (<< 5.37)
+Breaks: kio (<< 5.41)
