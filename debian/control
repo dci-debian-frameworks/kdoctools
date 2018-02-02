@@ -29,7 +29,7 @@ Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5kdelibs4support-dev (<< 5.41)
+Breaks: libkf5kdelibs4support-dev (<< 5.42)
 
 Package: kdoctools5
 Section: doc
@@ -55,7 +55,7 @@ Depends: kdoctools5 (= ${binary:Version}),
          libkf5doctools5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
-Breaks: kdoctools-dev (<< 5.23.0-2~)
+Breaks: kdoctools-dev (<< 5.23.0-2~), libkf5kdelibs4support-dev (<< 5.42)
 Replaces: kdoctools-dev (<< 5.23.0-2~)
 Description: Development files for kdoctools5
  KDocTools is a set of tools to generate documentation in various formats from
@@ -74,4 +74,4 @@ Description: Tools to generate documentation in various formats from DocBook
  formats from DocBook files.
  .
  This package is part of KDE Frameworks 5.
-Breaks: kio (<< 5.41)
+Breaks: kio (<< 5.42)
